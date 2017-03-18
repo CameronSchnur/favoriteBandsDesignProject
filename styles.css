@@ -1,0 +1,38 @@
+#text-container {
+  border-radius: 20px;
+  border: 2px solid #ffd700;
+  /*
+  height: 275px;
+  width: 300px;
+  */
+  width:70%;
+  margin: auto;
+  text-align: center;
+  font-size: 75px;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+
+
+}
+
+#text-container:hover {
+  background-image: url(http://www.metalsucks.net/wp-content/uploads/2015/01/norma_jean.jpg);
+  background-position: center;
+  
+  transform: scale(1);
+  opacity: 1;
+}
+
+#title {
+  font-size:1.1em;
+}
+
+#bg {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-image: url(http://static.squarespace.com/static/525494f0e4b0dd64d4b0526d/t/52ec69c8e4b04873488e7a2d/1391225325447/August%20Burns%20Red.jpg?format=500w);
+  background-size: 100%;
+}
