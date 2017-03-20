@@ -1,31 +1,110 @@
-#text-container {
-  border-radius: 20px;
-  border: 2px solid #ffd700;
-  /*
-  height: 275px;
-  width: 300px;
-  */
+.content-container {
+  border-radius:5px;
   width:70%;
-  margin: auto;
+  margin:5% 15% 0%;
+  padding:10px 15px;
+  font-family:sans-serif;
+  color:white;
+}
+
+
+
+#text-container {
+
+  /* content */
   text-align: center;
   font-size: 75px;
-  font-family: sans-serif;
-  color: white;
+  border:2px solid #ffd700;
+}
+
+
+#list-container {
+
+  /* content */
   text-align: center;
+  font-size: 75px;
+  display:table;
 
+}
+.list-row {
+  border:1px dotted white;
+  display:table-row;
+}
 
+.band-number {
+  border:2px solid #ffd700;
+  border-radius:5px;
+  width:20%;
+  display:table-cell;
+  font-style: italic;
+  font-stretch: expanded;
+
+}
+
+.band-name {
+  border:2px solid #ffd700;
+  border-radius:5px;
+  width:75%;
+  display:table-cell;
+  color: white;
+}
+
+.cell-space {
+  width:5%;
+}
+
+.row-space {
+  height:40px;
 }
 
 #text-container:hover {
   background-image: url(http://www.metalsucks.net/wp-content/uploads/2015/01/norma_jean.jpg);
   background-position: center;
-  
+
   transform: scale(1);
   opacity: 1;
 }
 
+#thricebg:hover {
+  background-image: url();
+  background-position: center;
+  text-decoration: none;
+  color: white;
+}
+
+#architectsbg:hover {
+  background-image: url(https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwikmoS8yOHSAhVD0oMKHePiC0AQjRwIBw&url=https%3A%2F%2Fcatalog-02.ru%2FYXJjaGl0ZWN0cyBiYW5kIHRvdXI%2F&bvm=bv.149760088,d.amc&psig=AFQjCNGTPODIoy0fZhRyRdBKAwDP7Ui47w&ust=1489978417510489);
+  background-position: center;
+  background-size: cover;
+  text-decoration: none;
+  color: white;
+}
+
+#underoathbg:hover {
+  background-image: url(http://www.metal-archives.com/images/9/8/8/5/98854_photo.jpg?3352);
+  background-position: center;
+  background-size: cover;
+  text-decoration: none;
+  color: white;
+}
+
+#etidbg:hover {
+  background-image: url(http://epitaph.com/media/artists/EveryTimeIDie_MegaImage_kGChCHW.jpg.600x375_q90.jpg);
+  background-position: center;
+  background-size: cover;
+  text-decoration: none;
+  color: white;
+}
+
+#normajeanbg:hover {
+  background-image: url(http://www.davidejackson.com/blog/wp-content/uploads/2013/10/njtempheader1.jpg);
+  background-position: top;
+  background-size: cover;
+  text-decoration: none;
+  color: white;
+}
 #title {
-  font-size:1.1em;
+  font-size:1em;
 }
 
 #bg {
@@ -33,6 +112,40 @@
   width: 100%;
 }
 body {
+  background-color:#000;
   background-image: url(http://static.squarespace.com/static/525494f0e4b0dd64d4b0526d/t/52ec69c8e4b04873488e7a2d/1391225325447/August%20Burns%20Red.jpg?format=500w);
+  margin-bottom: 0.5%;
+
   background-size: 100%;
+}
+footer {
+  text-align: center;
+  color: white;
+}
+
+.band-info{
+  border:2px solid #ffd700;
+  margin: 5% 15% 5%;
+  border-radius: 5px;
+  width:70%;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.band-header{
+  text-align: center;
+  color: white;
+  text-font: 75px;
+}
+
+.band-image{
+  border-color: #ffd700;
+  text-align: center;
+}
+
+.text-left{
+  text-align: left;
 }
